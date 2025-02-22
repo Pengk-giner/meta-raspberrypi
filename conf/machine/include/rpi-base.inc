@@ -67,6 +67,9 @@ RPI_KERNEL_DEVICETREE_OVERLAYS ?= " \
     overlays/w1-gpio.dtbo \
     overlays/w1-gpio-pullup.dtbo \
     overlays/wm8960-soundcard.dtbo \
+    overlays/goodix.dtbo \
+    overlays/vc4-kms-dsi-ili9881-7inch.dtbo \
+    overlays/rpi-backlight.dtbo \
     "
 
 RPI_KERNEL_DEVICETREE ?= " \
