@@ -70,6 +70,8 @@ RPI_KERNEL_DEVICETREE_OVERLAYS ?= " \
     overlays/goodix.dtbo \
     overlays/vc4-kms-dsi-ili9881-7inch.dtbo \
     overlays/rpi-backlight.dtbo \
+    overlays/mipi-dbi-spi.dtbo \
+    overlays/ads7846.dtbo \
     "
 
 RPI_KERNEL_DEVICETREE ?= " \
